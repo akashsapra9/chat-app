@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Screen{
+    width: 97%;
+    height: 78%;
+    background-color: #f7f7f7;
+    border-radius: 0.813rem;
+    margin: 1rem 1rem 0 1rem;
+}
