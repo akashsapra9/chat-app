@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    width: 100vw;
+    gap: 1rem;
+}
+
+.TopInfoPannel{
+    display: flex;
+    align-items: center;
+    width: 47.6875rem;
+    height: 3.94rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.infoSection{
+    display: flex;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+.infoSection > img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.infoSection > .name{
+    font-size: 1.2rem;
+}
+
+.infoSection > .name > .status{
+    font-size: .9rem;
+    margin-top: .2rem;
+}
+
+.callBtn{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    background-color: rgba(104, 102, 253, 0.27);
+    border-radius: .5rem;
+    color: #615EF0;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1.2rem 1rem;
+    cursor: pointer;
+}
+
+.callBtn:hover{
+    background-color: rgba(86, 83, 250, 0.15);
+}
+
+.callBtn > svg {
+    height: 1.5rem;
+}
+
+
+.TypingArea{
+    display: flex;
+    align-items: center;
+    width: 47.9375rem;
+    height: 8.6875rem;
+    gap: 1rem;
+}
+
+.MessageArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 43.9875rem;
+    height: 3rem;
+    border: 2px solid #E2E8F0;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+}
+
+.MessageArea > input {
+    border: none;
+    width: 43rem;
+    height: 2.7rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.MessageArea > input:focus {
+    outline: none;
+}
+
+.MessageArea > input::placeholder {
+    color: #000;
+    opacity: 0.4;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.MessageArea > button {
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+    padding: .2rem 0 .2rem .2rem;
+}
+
+.attachment{
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+    padding: .2rem;
+} 
+
+.Screen{
+    width: 47.4375rem;
+    height: 30.375rem;
+    background-color: #f7f7f7;
+    border-radius: 0.813rem;
+    margin-top: 1rem;
+}
